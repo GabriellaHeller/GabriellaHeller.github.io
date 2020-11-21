@@ -1,0 +1,153 @@
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row nowrap;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #1285ff;
+}
+
+ul.mainNav {
+    margin-bottom: 30px;
+}
+
+nav li {
+	float: left;
+}
+nav li a {
+	display: block;
+	padding: 12px 12px 13px 12px;
+	color: #0f2654;
+	text-decoration: none;
+}
+nav li a:hover {
+	background-color: #0d1f82;
+	color: #FFF;
+}
+nav ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: #1285ff;
+  background-color: #ffffff9e
+}
+
+h1 {
+    color: #1285ff
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+h3 {
+    color: #1285ff;
+    text-align: center;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+ul.meny{
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+}
+
+p.brod {
+text-align: justify;
+padding-left: 200px;
+padding-right: 200px;
+background-color: #1285ff87;
+padding-top: 80px;
+padding-bottom: 80px;
+    
+}
+
+
+  .parallax {
+  /* The image used */
+  background-image: url("hav.jpg");
+
+
+  min-height: 500px; 
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+}
+
+.foreground {
+  margin-top: auto;
+  margin-bottom: 50px;
+  transform-origin: 0;
+  transform: translateZ(3px);
+}
+#outter{
+width: 400px;
+padding: 0;
+margin: 0 auto;
+}
+
+#div1, #div2{
+width: 50%;
+float: left;
+text-align:center;}
+
+
+  @media only screen and (max-width:600px) {
+	body {
+		background-color: #1285ff87;
+	}
+	.header_logo h1 {
+		font-size: 15px;
+	}
+	nav.mainNav {
+		display: none;
+	}
+	nav.mobileNav {
+		display: block;
+
+		.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #1285ff;
+  background-color: #ffffff9e
+
+		p.brod{
+		{
+			text-align: left;
+}
+ 
+}
