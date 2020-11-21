@@ -89,7 +89,6 @@ padding-bottom: 80px;
 
 
   .parallax {
-  /* The image used */
   background-image: url("hav.jpg");
 
 
@@ -127,27 +126,27 @@ text-align:center;}
 	body {
 		background-color: #1285ff87;
 	}
-	.header_logo h1 {
-		font-size: 15px;
-	}
+	
 	nav.mainNav {
 		display: none;
 	}
 	nav.mobileNav {
 		display: block;
+	}
 
-		.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  color: #1285ff;
-  background-color: #ffffff9e
 
-		p.brod{
-		{
-			text-align: left;
+  paralax.{
+  display:none;
 }
+
+p.brod {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #1285ff87;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
  
 }
