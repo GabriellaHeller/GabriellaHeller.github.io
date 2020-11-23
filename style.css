@@ -6,6 +6,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	flex-flow: row nowrap;
+    margin-bottom: 20px;
 }
 nav ul {
 	margin: 0;
@@ -54,10 +55,15 @@ nav ul {
   background-color: #ffffff9e
 }
 
+h1.mobil{
+    padding-top: 20px;
+	display:none;
+}
+
 h1 {
-    color: #1285ff
+    color: #1285ff;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 
@@ -106,10 +112,11 @@ padding-bottom: 80px;
 
 .foreground {
   margin-top: auto;
-  margin-bottom: 50px;
+  margin-bottom: 00px;
   transform-origin: 0;
   transform: translateZ(3px);
 }
+
 #outter{
 width: 400px;
 padding: 0;
@@ -121,8 +128,31 @@ width: 50%;
 float: left;
 text-align:center;}
 
+}
 
-  @media only screen and (max-width:600px) {
+#outter2{
+width: 200px;
+padding: 0;
+margin: 0 auto;
+}
+
+#div3 {
+width: 50%;
+float: left;
+text-align:left;}
+
+#div4{
+width: 50%;
+float: right;
+text-align:right;}
+
+}
+
+p.margin{
+margin-top:10px;	
+}
+
+ @media only screen and (max-width:600px) {
 	body {
 		background-color: #1285ff87;
 	}
@@ -132,13 +162,27 @@ text-align:center;}
 	}
 
 	nav.mobileNav {
+		margin-top:40px;
 		display: block;
 	}
+
+	h1.mobil{
+	display:block;
+}
+
 p.brod {
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: #1285ff87;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.meny  {
+		font-size: 15px;
+	}
+
+	.container{
+	display:none;
 }
 }
